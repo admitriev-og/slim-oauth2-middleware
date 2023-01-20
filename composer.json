@@ -1,5 +1,5 @@
 {
-    "name": "chadicus/slim-oauth2-middleware",
+    "name": "vsavritsky/slim-oauth2-middleware",
     "description": "OAuth2 middleware for use within a Slim Framework API",
     "keywords": ["slim", "oauth2", "middleware"],
     "authors": [
@@ -13,19 +13,13 @@
     "config" : {
         "sort-packages": true
     },
-    "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/tchapi/slim-oauth2-http"
-      }
-    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "bshaffer/oauth2-server-php": "^1.11",
-        "chadicus/slim-oauth2-http": "dev-next",
         "psr/http-message": "^1.0",
         "psr/http-server-handler": "^1.0",
-        "psr/http-server-middleware": "^1.0"
+        "psr/http-server-middleware": "^1.0",
+        "vsavritsky/slim-oauth2-http": "^4.0"
     },
     "require-dev": {
         "php-coveralls/php-coveralls": "^2.5",

@@ -1,5 +1,5 @@
 {
-    "name": "vsavritsky/slim-oauth2-middleware",
+    "name": "ogdev/slim-oauth2-middleware",
     "description": "OAuth2 middleware for use within a Slim Framework API",
     "keywords": ["slim", "oauth2", "middleware"],
     "authors": [
@@ -19,7 +19,7 @@
         "psr/http-message": "^1.0",
         "psr/http-server-handler": "^1.0",
         "psr/http-server-middleware": "^1.0",
-        "vsavritsky/slim-oauth2-http": "^4.0"
+        "ogdev/slim-oauth2-http": "^4.0"
     },
     "require-dev": {
         "php-coveralls/php-coveralls": "^2.5",
